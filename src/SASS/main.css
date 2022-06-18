@@ -1,0 +1,54 @@
+h1 {
+  color: #0F9D58;
+  color: #f50dc3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  color: #0F9D58;
+  color: #f50dc3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+a {
+  color: #0F9D58;
+  color: #f50dc3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+div ul li a {
+  color: #f50dc3;
+}
+
+div ul li {
+  color: #0F9D58;
+}
+
+div ul {
+  background-color: lightblue;
+}
+
+div ul li {
+  list-style-type: disc;
+  color: #4285F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  text-transform: uppercase;
+}
+
+div ul li a {
+  color: #f50dc3;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

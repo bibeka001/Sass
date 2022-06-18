@@ -1,0 +1,40 @@
+@import 'variables.scss';
+@import 'mixin.scss';
+
+h1{
+    color: $color-blue;
+    @include commonproperty;
+}
+p{
+    color: $color-blue;
+    @include commonproperty;
+
+}
+a{
+    color: $color-blue;
+    @include commonproperty;
+
+}
+div ul li a{
+    color: $color-menu;
+}
+div ul li {
+    color: $color-blue;
+}
+div{
+    ul{
+        background-color: lightblue;
+        li{
+            list-style-type: disc;
+            color: $color-text;
+            display: flex;
+            flex-direction: column-reverse;
+            text-transform: uppercase;
+            a{
+            color: $color-menu;
+            text-decoration: none;
+
+            }
+        }
+    }
+}
